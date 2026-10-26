@@ -1,8 +1,39 @@
+<a href="https://artemisai-bycutlineindustries.studio"><img src="assets/banner-business.png" width="100%" alt="Cutline Industries: home of Artemis AI. AI training and infrastructure, built and shipped."></a>
+
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Latoya Pittman: Founder, Cutline Industries, building Artemis AI">
+  <a href="https://artemisai-bycutlineindustries.studio"><img alt="Website: artemisai-bycutlineindustries.studio" src="https://img.shields.io/badge/Website-artemisai--bycutlineindustries.studio-3279f9?style=for-the-badge&labelColor=0d0e11"></a>
+  <a href="https://artemisai-bycutlineindustries.studio/portfolio/"><img alt="Portfolio: Latoya Pittman" src="https://img.shields.io/badge/Portfolio-Latoya_Pittman-5a3fe0?style=for-the-badge&labelColor=0d0e11"></a>
+  <a href="https://github.com/lpittman-blip/artemis-567885"><img alt="Open source: artemis-567885" src="https://img.shields.io/badge/Open_source-artemis--567885-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
 </p>
 
-I build and run AI systems end to end: model code, training runs on rented GPUs, and the cloud infrastructure around them. I'm the founder of **Cutline Industries**, where I'm building **[Artemis AI](https://artemisai-bycutlineindustries.studio)**.
+## Cutline Industries LLC
+
+I'm **Latoya Pittman**, founder of **Cutline Industries LLC**. We build AI systems end to end: the model code, the training runs on rented GPUs, and the cloud infrastructure that keeps them safe and cheap. Our flagship is **[Artemis AI](https://artemisai-bycutlineindustries.studio)**.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛰️ Artemis AI <sub><code>flagship</code></sub></h3>
+      The Artemis AI website, with chat, products and account pages.<br><br>
+      <a href="https://artemisai-bycutlineindustries.studio"><img alt="Visit Artemis AI" src="https://img.shields.io/badge/Visit-Artemis_AI-3279f9?style=for-the-badge&labelColor=0d0e11"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 Artemis 567885 <sub><code>open source</code></sub></h3>
+      A self-expanding sparse Mixture-of-Experts engine in PyTorch. It grew from 1 to 12 layers over 105 supervised cycles.<br><br>
+      <a href="https://github.com/lpittman-blip/artemis-567885"><img alt="View the repo" src="https://img.shields.io/badge/View-repo-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🖥️ Ops Dashboard and Ops Terminal</h3>
+      A secured ops dashboard on Azure Container Apps, plus a sandboxed command API for agents with an audit log.
+    </td>
+    <td width="50%" valign="top">
+      <h3>💸 Cost-capped GPU training</h3>
+      Every run gets a hard dollar cap, a kill timer, a self-destruct, and teardown verified by instance ID.
+    </td>
+  </tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -14,13 +45,17 @@ I build and run AI systems end to end: model code, training runs on rented GPUs,
 - **Ops dashboard on Azure**: a password-protected, trading-terminal-style dashboard on Azure Container Apps. It uses bcrypt login, signed sessions, a strict CSP, rate limits and Blob-backed daily snapshots, and refreshes every morning. I also built an **Ops Terminal** for it: a sandboxed command API for agents with a JSON in/out format, per-command timeouts, a command policy, rate limits, secret redaction and an audit log.
 - **Forge**: a code-hosting platform I'm building the way large Git hosts are built. It has a Rails monolith; Go services for the API gateway, realtime and Git RPC; quorum-based Git ref replication; Rust trigram code search; and a React UI kit.
 
-<p align="center"><img src="assets/measured.svg" width="100%" alt="Measured results: self-expanding MoE engine eval loss 0.0965 to 0.0260; byte-level MoE LM 1.761 bits per byte held-out vs 4.581 unigram; dense LM GPU run 3.293 to 1.191 bits per byte; physics sandbox relative L2 0.0077 vs 0.2497 baseline"></p>
+<p align="center"><img src="assets/measured.png" width="100%" alt="Measured results: self-expanding MoE engine eval loss 0.0965 to 0.0260; byte-level MoE LM 1.761 bits per byte held-out vs 4.581 unigram; dense LM GPU run 3.293 to 1.191 bits per byte; physics sandbox relative L2 0.0077 vs 0.2497 baseline"></p>
+
+<img src="assets/divider.svg" width="100%" alt="">
 
 <img src="assets/divider.svg" width="100%" alt="">
 
 ### Stack
 
-`Python` `PyTorch` `CUDA` `QLoRA / PEFT` · `Node.js` `TypeScript` `React` · `Go` `Rust` `Ruby on Rails` · `Azure Container Apps` `Azure Blob` `Docker` · `Linux` `Bash`
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3279f9?style=flat-square&labelColor=0d0e11"> <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-3279f9?style=flat-square&labelColor=0d0e11"> <img alt="CUDA" src="https://img.shields.io/badge/CUDA-3279f9?style=flat-square&labelColor=0d0e11"> <img alt="QLoRA / PEFT" src="https://img.shields.io/badge/QLoRA_/_PEFT-3279f9?style=flat-square&labelColor=0d0e11"> <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5a3fe0?style=flat-square&labelColor=0d0e11"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5a3fe0?style=flat-square&labelColor=0d0e11"> <img alt="React" src="https://img.shields.io/badge/React-5a3fe0?style=flat-square&labelColor=0d0e11"> <img alt="Go" src="https://img.shields.io/badge/Go-22d3ee?style=flat-square&labelColor=0d0e11"> <img alt="Rust" src="https://img.shields.io/badge/Rust-22d3ee?style=flat-square&labelColor=0d0e11"> <img alt="Ruby on Rails" src="https://img.shields.io/badge/Ruby_on_Rails-22d3ee?style=flat-square&labelColor=0d0e11"> <img alt="Azure Container Apps" src="https://img.shields.io/badge/Azure_Container_Apps-6aa0ff?style=flat-square&labelColor=0d0e11"> <img alt="Azure Blob" src="https://img.shields.io/badge/Azure_Blob-6aa0ff?style=flat-square&labelColor=0d0e11"> <img alt="Docker" src="https://img.shields.io/badge/Docker-6aa0ff?style=flat-square&labelColor=0d0e11"> <img alt="Linux" src="https://img.shields.io/badge/Linux-6aa0ff?style=flat-square&labelColor=0d0e11"> <img alt="Bash" src="https://img.shields.io/badge/Bash-6aa0ff?style=flat-square&labelColor=0d0e11">
+</p>
 
 ### How I work
 
@@ -33,10 +68,10 @@ Roles on **AI training and infrastructure teams**: model and training-systems wo
 <img src="assets/divider.svg" width="100%" alt="">
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lpittman-blip&show_icons=true&hide_border=true&bg_color=0d0e11&title_color=6aa0ff&text_color=b4b9c4&icon_color=22d3ee" alt="GitHub stats for lpittman-blip">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lpittman-blip&layout=compact&hide_border=true&bg_color=0d0e11&title_color=6aa0ff&text_color=b4b9c4" alt="Top languages for lpittman-blip">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lpittman-blip&show_icons=true&hide_border=true&bg_color=0d0e11&title_color=6aa0ff&text_color=b4b9c4&icon_color=22d3ee&disable_animations=true" alt="GitHub stats for lpittman-blip">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lpittman-blip&layout=compact&hide_border=true&bg_color=0d0e11&title_color=6aa0ff&text_color=b4b9c4&disable_animations=true" alt="Top languages for lpittman-blip">
 </p>
 
 <p align="center">
-  <a href="https://artemisai-bycutlineindustries.studio">artemisai-bycutlineindustries.studio</a>
+  <a href="https://artemisai-bycutlineindustries.studio"><b>Cutline Industries LLC</b> · artemisai-bycutlineindustries.studio</a>
 </p>
