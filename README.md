@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://artemisai-bycutlineindustries.studio"><img alt="Website: artemisai-bycutlineindustries.studio" src="https://img.shields.io/badge/Website-artemisai--bycutlineindustries.studio-3279f9?style=for-the-badge&labelColor=0d0e11"></a>
   <a href="https://artemisai-bycutlineindustries.studio/portfolio/"><img alt="Portfolio: Latoya Pittman" src="https://img.shields.io/badge/Portfolio-Latoya_Pittman-5a3fe0?style=for-the-badge&labelColor=0d0e11"></a>
-  <a href="https://github.com/lpittman-blip/artemis-567885"><img alt="Open source: artemis-567885" src="https://img.shields.io/badge/Open_source-artemis--567885-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
+  <a href="https://github.com/Cutline-industries/artemis-567885"><img alt="Open source: artemis-567885" src="https://img.shields.io/badge/Open_source-artemis--567885-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
 </p>
 
 ## Cutline Industries LLC
@@ -20,7 +20,7 @@ I'm **Latoya Pittman**, founder of **Cutline Industries LLC**. We build AI syste
     <td width="50%" valign="top">
       <h3>🧠 Artemis 567885 <sub><code>open source</code></sub></h3>
       A self-expanding sparse Mixture-of-Experts engine in PyTorch. It grew from 1 to 12 layers over 105 supervised cycles.<br><br>
-      <a href="https://github.com/lpittman-blip/artemis-567885"><img alt="View the repo" src="https://img.shields.io/badge/View-repo-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
+      <a href="https://github.com/Cutline-industries/artemis-567885"><img alt="View the repo" src="https://img.shields.io/badge/View-repo-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
     </td>
   </tr>
   <tr>
@@ -39,7 +39,7 @@ I'm **Latoya Pittman**, founder of **Cutline Industries LLC**. We build AI syste
 
 ### Shipped and measured
 
-- **[Artemis 567885](https://github.com/lpittman-blip/artemis-567885)**: a CPU-first Top-K sparse Mixture-of-Experts transformer in PyTorch with a **self-expanding engine**. It adds experts, layers and capacity when training stalls, and a supervisor rolls back any change that breaks. Over 105 supervised cycles it grew from 1 layer to 12 layers and 87 experts, and eval loss went from 0.0965 to 0.0260. One cycle timed out and rolled back cleanly. Development happens in stacked PRs, and every number has a log.
+- **[Artemis 567885](https://github.com/Cutline-industries/artemis-567885)**: a CPU-first Top-K sparse Mixture-of-Experts transformer in PyTorch with a **self-expanding engine**. It adds experts, layers and capacity when training stalls, and a supervisor rolls back any change that breaks. Over 105 supervised cycles it grew from 1 layer to 12 layers and 87 experts, and eval loss went from 0.0965 to 0.0260. One cycle timed out and rolled back cleanly. Development happens in stacked PRs, and every number has a log.
 - **Training on rented GPUs**: a 48.8M-parameter dense Artemis LM trained on 1× RTX A6000 for 50 minutes (374M tokens). Held-out web text went from 3.293 to 1.191 bits/byte, and the Artemis docs from 4.036 to 1.374. Measured spend was $0.44.
 - **Fine-tuning pipeline with cost guards**: QLoRA fine-tunes of a 7B model and a 30B model on 2-GPU rented instances. Every run has a hard dollar cap ($5 and $15), a host-side kill timer, an on-instance self-destruct, and teardown verified by instance ID. Real spend was $0.53 and $1.08.
 - **Ops dashboard on Azure**: a password-protected, trading-terminal-style dashboard on Azure Container Apps. It uses bcrypt login, signed sessions, a strict CSP, rate limits and Blob-backed daily snapshots, and refreshes every morning. I also built an **Ops Terminal** for it: a sandboxed command API for agents with a JSON in/out format, per-command timeouts, a command policy, rate limits, secret redaction and an audit log.
